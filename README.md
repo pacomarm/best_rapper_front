@@ -1,6 +1,5 @@
-# Goty
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8.
+# The Best Rapper App is deployed!
+## https://goty-766fb.web.app/inicio
 
 ## Development server
 
