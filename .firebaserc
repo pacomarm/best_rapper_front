@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "goty-766fb": {
+      "hosting": {
+        "goty": [
+          "goty-766fb"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "goty-766fb"
+  }
+}

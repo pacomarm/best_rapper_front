@@ -1,0 +1,22 @@
+<h2>Vote for the GOAT Rapper</h2>
+<hr>
+
+<div class="row">
+
+    <div class="col">
+        <div class="card-columns">
+
+            <div class="card" *ngFor="let juego of juegos">
+              <img [src]="juego.url" class="card-img-top" [alt]="juego.name">
+              <div class="card-body">
+                <h5 class="card-title"> {{juego.name}} </h5>
+                <p class="card-text"> Click here to vote for {{juego.name}} </p>
+                <button (click)="votarJuego( juego )" class="btn btn-block btn-outline-danger">Vote</button>
+
+              </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>

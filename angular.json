@@ -117,8 +117,16 @@
               "devServerTarget": "goty:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "goty"
+    }
+  },
+  "defaultProject": "goty",
+  "cli": {
+    "analytics": "71d9e02b-5369-4c01-80fb-d6fd99f5ee88"
+  }
 }
